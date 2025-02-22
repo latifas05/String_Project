@@ -72,3 +72,9 @@ The project includes a series of unit tests implemented using **JUnit** to valid
 - Empty strings
 - Special characters
 - Large text
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/40491937-394f-4116-b20e-cae37d8e2d66)
+![image](https://github.com/user-attachments/assets/81efdd76-8b45-4677-be2e-f753bb228da2)
+
+
