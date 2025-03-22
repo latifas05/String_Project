@@ -20,21 +20,16 @@ This Java project implements a **String Encryption/Decryption** system using the
 ## Algorithms & Data Structures
 
 - **Caesar Cipher Algorithm:**
-  - Encrypt: For each letter, shift by 3 positions within the alphabet. Handle wrapping around using modulo operations.
-  - Decrypt: Shift the letters back by 3 positions to restore the original text.
+  - **Encrypt:** For each letter, shift by 3 positions within the alphabet. Handle wrapping around using modulo operations.
+  - **Decrypt:** Shift the letters back by 3 positions to restore the original text.
   
 - **Data Structures:**
   - **StringBuilder** is used to construct the encrypted and decrypted strings efficiently.
 
 ## Challenges Encountered
 
-- Handling non-alphabetic characters: The Caesar Cipher only affects letters, so special characters, spaces, and punctuation marks needed to be preserved during encryption and decryption.
-- File handling: Ensuring that the program reads from and writes to text files correctly was essential for demonstrating file-based input/output processing.
-
-## Improvements
-
-- **File Handling Enhancement:** I improved the way files are read and written by using `Files.readAllBytes()` and `Files.write()` methods, ensuring the text is properly handled with UTF-8 encoding.
-- **Code Organization:** I separated the encryption/decryption logic into a separate class (`StringEncryptionDecryption`) to keep the code modular and readable.
+- **Handling Non-Alphabetic Characters:** The Caesar Cipher only affects letters, so special characters, spaces, and punctuation marks needed to be preserved during encryption and decryption.
+- **Submitting to Github 
 
 ## File I/O Explanation
 
@@ -48,33 +43,10 @@ This Java project implements a **String Encryption/Decryption** system using the
 3. Compile and run the `Main.java` file to see the encryption and decryption in action.
 4. Check the `output.txt` file for the encrypted text, and verify the decrypted text printed in the console.
 
-## Example Output
-
-### Original Text:
-```
-Hello, World! This is a test.
-```
-
-### Encrypted Text:
-```
-Khoor, Zruog! Wklv lv d whvw.
-```
-
-### Decrypted Text:
-```
-Hello, World! This is a test.
-```
-
-## Unit Tests
-
-The project includes a series of unit tests implemented using **JUnit** to validate the correctness of the encryption and decryption processes. These tests cover various cases, including:
-- Normal text
-- Empty strings
-- Special characters
-- Large text
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/40491937-394f-4116-b20e-cae37d8e2d66)
-![image](https://github.com/user-attachments/assets/81efdd76-8b45-4677-be2e-f753bb228da2)
+![image](https://github.com/user-attachments/assets/212858a5-b46f-4cec-a236-a6c584ed54f0)
+![image](https://github.com/user-attachments/assets/5c76039b-a37a-4447-b942-30968888731c)
+
 
 
